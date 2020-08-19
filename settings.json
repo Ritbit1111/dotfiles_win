@@ -12,6 +12,7 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
+            
         },
         "list":
         [
@@ -21,9 +22,15 @@
                 "name": "Ubuntu-20.04",
                 "source": "Windows.Terminal.Wsl",
                 "fontFace": "Hack Nerd Font",
-                "cursorShape" : "bar",
                 "startingDirectory": "//wsl$/Ubuntu-20.04/home/rk/",
-                "padding" : "0, 0, 0, 0"
+                "padding" : "0, 0, 0, 0",
+                // "useAcrylic": true,
+                // "acrylicOpacity": 1
+                "colorScheme": "gruvbox",
+                "cursorShape": "filledBox",
+                // "cursorShape": "emptyBox",
+                "cursorColor":"#5050FF",
+                // "cursorColor":"#FFFFFF",
             },
 
             {
@@ -81,7 +88,54 @@
         ]
     },
 
-    "schemes": [],
+    "schemes": [
+        
+            {
+                "name":"gruvbox",
+                "background" : "#282828",
+                "black" : "#282828",
+                "blue" : "#458588",
+                "brightBlack" : "#928374",
+                "brightBlue" : "#83A598",
+                "brightCyan" : "#8EC07C",
+                "brightGreen" : "#B8BB26",
+                "brightPurple" : "#D3869B",
+                "brightRed" : "#FB4934",
+                "brightWhite" : "#EBDBB2",
+                "brightYellow" : "#FABD2F",
+                "cyan" : "#689D6A",
+                "foreground" : "#EBDBB2",
+                "green" : "#98971A",
+                "purple" : "#B16286",
+                "red" : "#CC241D",
+                "white" : "#A89984",
+                "yellow" : "#D79921"
+              },
+
+              {
+            // Color Scheme: Dracula
+            "name" : "Dracula",
+            "background" : "#282A36",
+            "black" : "#21222C",
+            "blue" : "#BD93F9",
+            "brightBlack" : "#6272A4",
+            "brightBlue" : "#D6ACFF",
+            "brightCyan" : "#A4FFFF",
+            "brightGreen" : "#69FF94",
+            "brightPurple" : "#FF92DF",
+            "brightRed" : "#FF6E6E",
+            "brightWhite" : "#FFFFFF",
+            "brightYellow" : "#FFFFA5",
+            "cyan" : "#8BE9FD",
+            "foreground" : "#F8F8F2",
+            "green" : "#50FA7B",
+            "purple" : "#FF79C6",
+            "red" : "#FF5555",
+            "white" : "#F8F8F2",
+            "yellow" : "#F1FA8C"
+        }
+        
+    ],
 
     "keybindings":
     [
