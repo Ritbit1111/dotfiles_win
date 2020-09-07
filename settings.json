@@ -170,6 +170,13 @@
         { "command": { "action": "splitPane", "split": "horizontal"}, "keys": "ctrl+shift+j" },
         { "command": { "action": "splitPane", "split": "vertical"}, "keys": "ctrl+shift+l" },
 
+
+        // Resize
+        { "command": { "action": "resizePane", "direction": "down" }, "keys": "alt+shift+j" },
+        { "command": { "action": "resizePane", "direction": "left" }, "keys": "alt+shift+h" },
+        { "command": { "action": "resizePane", "direction": "right" }, "keys": "alt+shift+l" },
+        { "command": { "action": "resizePane", "direction": "up" }, "keys": "alt+shift+k" },
+
         //Scroll
         { "command": "scrollUp", "keys": "alt+k" },
         { "command": "scrollDown", "keys": "alt+j" },
