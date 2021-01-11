@@ -150,7 +150,7 @@
 
 
         // think of vim too while setting these
-        { "command": "closeTab", "keys": "ctrl+shift+x" },
+        { "command": "closeTab", "keys": "ctrl+x" },
 
 
 
