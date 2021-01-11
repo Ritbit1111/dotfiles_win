@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/rk/bitbucket/consize/consize/dash_server/downloads'
+let g:netrw_dirhist_2='/home/rk/sandbox/run1'
+let g:netrw_dirhist_1='/home/rk/.config/nvim/plug-config'
+let g:netrw_dirhist_0='/home/rk/bitbucket/consize/consize/static/db/controller/components/mosfet/__pycache__'
+let g:netrw_dirhist_9='/home/rk/bitbucket/consize/test/cmd/system'
+let g:netrw_dirhist_8='/home/rk/bitbucket/consize/consize/static/db/machine/pmsm'
+let g:netrw_dirhist_7='/home/rk/bitbucket/consize/consize/static/db/machine'
+let g:netrw_dirhist_6='/home/rk/bitbucket/pymd/docs/source/_static'
+let g:netrw_dirhist_5='/home/rk/temp_testing/db/controller/components'
+let g:netrw_dirhist_4='/home/rk/bitbucket/consize/.git'

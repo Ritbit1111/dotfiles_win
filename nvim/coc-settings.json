@@ -1,0 +1,5 @@
+{
+    "jedi.enable":true,
+    "jedi.diagnostics.enable": false,
+	"jedi.executable.command": "/home/rk/miniconda3/envs/rnd-motors/bin/jedi-language-server"
+}
